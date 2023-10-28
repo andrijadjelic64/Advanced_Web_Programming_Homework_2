@@ -4,47 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="061d5f6b-d6e4-4915-a41f-2af77731311a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Autowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Bean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/GET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/POST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Path.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Qualifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/bean/Bean1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/bean/Bean2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/components/Component1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/components/Component2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/components/Component3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/controller/Controller1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/controller/Controller2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/service/Service1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/service/Service2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/service/Service3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/request/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/request/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/request/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/request/enums/Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/request/exceptions/RequestNotValidException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/response/JsonResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/response/RedirectResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/response/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework_mechanism/DIEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework_mechanism/DependencyContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework_mechanism/HttpRoute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework_mechanism/Route.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/ServerThread.java" afterDir="false" />
+    <list default="true" id="061d5f6b-d6e4-4915-a41f-2af77731311a" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +46,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "vcs.Subversion.SSH"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -117,6 +78,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\DrRale\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="061d5f6b-d6e4-4915-a41f-2af77731311a" name="Changes" comment="" />
@@ -128,8 +92,16 @@
       <workItem from="1668069144586" duration="41022000" />
       <workItem from="1668821767896" duration="705000" />
       <workItem from="1668850093184" duration="1868000" />
-      <workItem from="1698491682426" duration="845000" />
+      <workItem from="1698491682426" duration="2858000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1698495016721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698495016721</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,5 +117,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
