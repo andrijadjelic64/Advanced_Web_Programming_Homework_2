@@ -1,12 +1,14 @@
 package server;
 
-import framework.response.JsonResponse;
-import framework.response.Response;
-import framework.request.enums.Method;
 import framework.request.Header;
 import framework.request.Helper;
 import framework.request.Request;
+import framework.request.enums.Method;
 import framework.request.exceptions.RequestNotValidException;
+import framework.response.JsonResponse;
+import framework.response.Response;
+import framework_mechanism.DIEngine;
+import framework_mechanism.Route;
 
 import java.io.*;
 import java.net.Socket;
@@ -19,6 +21,7 @@ public class ServerThread implements Runnable{
     private BufferedReader in;
     private PrintWriter out;
 
+    private DIEngine diEngine = DIEngine.getInstance();
     public ServerThread(Socket socket){
         this.socket = socket;
 
@@ -46,14 +49,20 @@ public class ServerThread implements Runnable{
                 socket.close();
                 return;
             }
+            System.out.println("===================================");
+            System.out.println(request.getMethod().toString());
+            System.out.println(request.getLocation());
+            System.out.println(request.getParameters());
+            Route route = new Route(request.getMethod().toString(),request.getLocation());
+            Response response = DIEngine.getInstance().generateResponse(route);
 
 
-            // Response example
+           /* // Response example
             Map<String, Object> responseMap = new HashMap<>();
             responseMap.put("route_location", request.getLocation());
             responseMap.put("route_method", request.getMethod().toString());
             responseMap.put("parameters", request.getParameters());
-            Response response = new JsonResponse(responseMap);
+            Response response = new JsonResponse("hello there");*/
 
             out.println(response.render());
 
@@ -75,16 +84,21 @@ public class ServerThread implements Runnable{
         String[] actionRow = command.split(" ");
         Method method = Method.valueOf(actionRow[0]);
         String route = actionRow[1];
+        System.out.println(method+" " + route);
         Header header = new Header();
         HashMap<String, String> parameters = Helper.getParametersFromRoute(route);
 
         do {
+
             command = in.readLine();
+            System.out.println(command);
             String[] headerRow = command.split(": ");
             if(headerRow.length == 2) {
                 header.add(headerRow[0], headerRow[1]);
             }
         } while(!command.trim().equals(""));
+
+
 
         if(method.equals(Method.POST)) {
             int contentLength = Integer.parseInt(header.get("content-length"));

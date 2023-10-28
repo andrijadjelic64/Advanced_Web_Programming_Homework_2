@@ -4,11 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="061d5f6b-d6e4-4915-a41f-2af77731311a" name="Changes" comment="" />
+    <list default="true" id="061d5f6b-d6e4-4915-a41f-2af77731311a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/GET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/POST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Qualifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/definitions/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/bean/Bean1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/bean/Bean2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/components/Component1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/components/Component2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/components/Component3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/controller/Controller1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/controller/Controller2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/service/Service1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/service/Service2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/example/service/Service3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/request/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/request/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/request/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/request/enums/Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/request/exceptions/RequestNotValidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/response/JsonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/response/RedirectResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/response/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework_mechanism/DIEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework_mechanism/DependencyContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework_mechanism/HttpRoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework_mechanism/Route.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/ServerThread.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HKdTzK369rJT8jzl8SJxTkRpZs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,9 +78,44 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Racunarski fakultet/7_semestar/Napredno Veb programiranje/Primeri/http",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="framework_mechanism" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Racunarski fakultet\7_semestar\Napredno Veb programiranje\Domaci2\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Server" />
+      <module name="Domaci2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -33,7 +124,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668037721482</updated>
+      <workItem from="1668037722775" duration="1590000" />
+      <workItem from="1668069144586" duration="41022000" />
+      <workItem from="1668821767896" duration="705000" />
+      <workItem from="1668850093184" duration="1868000" />
+      <workItem from="1698491682426" duration="845000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

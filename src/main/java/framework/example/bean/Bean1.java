@@ -1,2 +1,7 @@
-package framework.example.bean;public class Bean1 {
+package framework.example.bean;
+
+import annotations.definitions.Bean;
+
+@Bean(scope = "singleton")
+public class Bean1 {
 }

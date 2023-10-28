@@ -3,6 +3,7 @@ package framework.request;
 import framework.request.enums.Method;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Request {
 
@@ -34,8 +35,14 @@ public class Request {
         return this.parameters.get(name);
     }
 
-    public HashMap<String, String> getParameters() {
-        return new HashMap<String, String>(this.parameters);
+    public String getParameters() {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (Map.Entry<String, String> entry : parameters.entrySet()) {
+            String key = entry.getKey();
+            Object value = entry.getValue();
+            stringBuilder.append("["+ key + ": " + value + "]");
+        }
+        return stringBuilder.toString();
     }
 
     public boolean isMethod(Method method) {

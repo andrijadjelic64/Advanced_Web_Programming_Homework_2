@@ -1,2 +1,7 @@
-package framework.example.components;public class Component3 {
+package framework.example.components;
+
+import annotations.definitions.Component;
+
+@Component
+public class Component3 {
 }

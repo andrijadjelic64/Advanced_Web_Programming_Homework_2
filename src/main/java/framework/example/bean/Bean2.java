@@ -1,2 +1,7 @@
-package framework.example.bean;public class Bean2 {
+package framework.example.bean;
+
+import annotations.definitions.Bean;
+
+@Bean(scope = "prototype")
+public class Bean2 {
 }

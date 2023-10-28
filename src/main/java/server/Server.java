@@ -1,5 +1,7 @@
 package server;
 
+import framework_mechanism.DIEngine;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -10,7 +12,9 @@ public class Server {
 
     public static void main(String[] args) throws IOException {
 
+
         try {
+            DIEngine diEngine = DIEngine.getInstance();
             ServerSocket serverSocket = new ServerSocket(TCP_PORT);
             System.out.println("Server is running at http://localhost:"+TCP_PORT);
             while(true){

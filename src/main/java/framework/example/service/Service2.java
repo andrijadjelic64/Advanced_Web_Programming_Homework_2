@@ -1,4 +1,7 @@
 package framework.example.service;
 
-public class Sevice2 {
+import annotations.definitions.Service;
+
+@Service
+public class Service2 {
 }
